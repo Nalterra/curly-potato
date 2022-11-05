@@ -5,6 +5,8 @@
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
+    max-width: 246px;
+    width: 100%;
 }
 
 .hebergement_carte_image {

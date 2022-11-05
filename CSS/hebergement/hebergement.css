@@ -1,7 +1,9 @@
 
 .info {
     display: flex;
+    align-items: center;
     height: 19px;
+    margin-bottom: 10px;
 }
 
 .icone_info {
@@ -18,21 +20,21 @@
 }
 
 .section_hebergement{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-direction: row;
     gap: 40px;
-    padding-left: 50px;
-    padding-right: 50px;
+    max-height: 626px;
 }
 
 .section_hebergement > .sous_section_hebergement {
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 41px;
+    padding: 40px;
+    height: 100%;
 }
 
 .sous_section_hebergement_liste {
-    display: grid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 30px;
     padding-top: 23px;
 }
