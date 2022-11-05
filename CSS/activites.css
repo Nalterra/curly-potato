@@ -1,0 +1,23 @@
+
+#lien_activite{
+    width: 100%;
+}
+.activite{
+    display: flex;
+    flex-wrap: wrap;
+    border:1px solid white;
+    border-radius: 20px;
+    background-color: white;
+    justify-content: space-between;
+}
+.image_activite > img{
+    width: 302px;
+    height: 389px;
+    border: 2px solid white;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+}
+.activite_marseille{
+    width: 302px;
+    height: 444px;
+}

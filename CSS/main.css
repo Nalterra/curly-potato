@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+   font-family: 'Raleway', sans-serif;
+  
+}
+.mise-en-page{
+   max-width: 1400px;
+   margin: 0 auto;
+}
+img{
+   object-fit: cover;
+}
+a{
+   text-decoration: none;
+   color: inherit;
+}

@@ -1,0 +1,35 @@
+@import "hebergement.css";
+@import "hebergement_carte.css";
+
+.hebergement {
+    height: 100%;
+    border: 1px solid #f2f2f2;
+    border-radius: 15px;
+    background-color: #f2f2f2;
+}
+
+.hebergement .sous_section_hebergement_liste {
+    grid-auto-rows: 199px;
+    grid-auto-columns: 246px;
+    grid-template-columns: 246px 246px 246px;
+}
+
+.hebergement .hebergement_carte {
+
+}
+
+.hebergement .hebergement_carte_image > img {
+    width: 246px;
+    height: 114px;
+}
+
+.hebergement .hebergement_carte_description {
+    max-width: 186px;
+    margin: 5px 10px 10px 10px;
+}
+
+.hebergement .hebergement_carte_description {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 5px;
+}

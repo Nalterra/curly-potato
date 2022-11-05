@@ -1,0 +1,53 @@
+@import "hebergement.css";
+@import "hebergement_carte.css";
+
+.section_hebergement > aside{
+    height: 100%;
+}
+
+.populaire {
+    border: 1px solid #f2f2f2;
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+
+.populaire_carte{
+    display: grid;
+    grid-gap: 33px;
+    justify-content: space-between;
+}
+
+.populaire .hebergement_carte {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    height: 144px;
+}
+
+.populaire .sous_section_hebergement_liste {
+    grid-auto-rows: 144px;
+    grid-auto-columns: 343px;
+    grid-template-columns: 343px;
+}
+
+.populaire .hebergement_carte {
+}
+
+.populaire .hebergement_carte_image > img {
+    width: 137px;
+    height: 144px;
+}
+
+.populaire .hebergement_carte_description {
+    max-width: 186px;
+    margin: 11px 10px 11px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
+}
+
+.populaire .hebergement_carte_description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

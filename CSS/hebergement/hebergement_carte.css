@@ -1,0 +1,43 @@
+.hebergement_carte {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px solid white;
+    border-radius: 20px;
+    background-color: white;
+    overflow: hidden;
+}
+
+.hebergement_carte_image {
+    padding: 0px;
+}
+
+.hebergement_carte_description {
+    display: grid;
+    grid-auto-flow: row;
+}
+
+.description_haut {
+    display: grid;
+    grid-auto-flow: row;
+    gap: 5px;
+}
+
+.hebergement_carte_titre {
+    margin: 0px;
+    width: 100%;
+    font-size: 16px;
+}
+
+.hebergement_carte_prix {
+    font-size: 14px;
+    margin: 0px;
+}
+
+.etoile {
+    font-size: 0.75em;
+    color: #0065FC;
+}
+
+.etoile i:last-child{
+    color: #f2f2f2;
+}
