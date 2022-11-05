@@ -1,6 +1,7 @@
 
 #lien_activite{
     width: 100%;
+    margin-top: 60px;
 }
 .activite{
     display: flex;
@@ -9,6 +10,7 @@
     border-radius: 20px;
     background-color: white;
     justify-content: space-between;
+    margin-bottom: 60px;
 }
 .image_activite > img{
     width: 302px;

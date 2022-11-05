@@ -1,23 +1,20 @@
 
 .info {
     display: flex;
-    height: 24px;
+    height: 19px;
 }
 
 .icone_info {
     display: flex;
    color: #0065FC;
    width: 24px;
+   height: 24px;
    justify-content: center;
-    align-items: center;
+   align-items: center;
+   box-sizing: border-box;
    border: 1px solid #f2f2f2;
    border-radius: 100%;
-}
-.icone_info > i {
-    width: 4px;
-    height: 10px;
-    
-    
+   margin-right: 11px;
 }
 
 .section_hebergement{

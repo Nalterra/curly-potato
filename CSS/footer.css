@@ -1,0 +1,14 @@
+.mise_en_page {
+    display: flex;
+    background-color: #f2f2f2;
+}
+
+.footer_colonne {
+    padding-top: 45px;
+    padding-left: 70px;
+    height: 225px;
+}
+
+.footer_colonne > div {
+    margin-bottom: 12px;
+}

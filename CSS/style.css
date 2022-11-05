@@ -3,3 +3,5 @@
 @import "barre_recherche.css";
 @import "hebergement/style.css";
 @import "activites.css";
+@import "footer.css";
+@import "media_queries/style.css";
