@@ -14,13 +14,12 @@
 }
 
 .hebergement_carte_description {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
 }
 
 .description_haut {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: column;
     gap: 5px;
 }
 

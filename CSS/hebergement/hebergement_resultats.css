@@ -14,10 +14,6 @@
     grid-template-columns: 246px 246px 246px;
 }
 
-.hebergement .hebergement_carte {
-
-}
-
 .hebergement .hebergement_carte_image > img {
     width: 246px;
     height: 114px;
@@ -29,7 +25,7 @@
 }
 
 .hebergement .hebergement_carte_description {
-    display: grid;
-    grid-auto-flow: row;
+    display: flex;
+    flex-direction: row;
     gap: 5px;
 }
