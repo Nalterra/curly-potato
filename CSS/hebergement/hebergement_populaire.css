@@ -19,6 +19,7 @@
     flex-direction: column;
     gap: 33px;
 }
+
 .vignette_populaire_carte{
     display: flex;
     flex-direction: row;
@@ -27,14 +28,8 @@
     background-color: white;
     overflow: hidden;
     max-width: 343px;
-    width: 100%;
-}
-
-.populaire .hebergement_carte {
-    display: flex;
-    flex-direction: column;
-    width: 343px;
     height: 144px;
+    width: 100%;
 }
 
 .sous_section_hebergement_populaire_titre {
@@ -42,10 +37,8 @@
     justify-content: space-between;
 }
 
-.populaire .sous_section_hebergement_liste {
-    grid-auto-rows: 144px;
-    grid-auto-columns: 343px;
-    grid-template-columns: 343px;
+.populaire .hebergement_carte_image {
+    height: 144px; 
 }
 
 .populaire .hebergement_carte_image > img {
@@ -58,10 +51,4 @@
     height: 148px;
     padding: 10px 10px 10px 10px;
     box-sizing: border-box;
-}
-
-.populaire .hebergement_carte_description {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
 }

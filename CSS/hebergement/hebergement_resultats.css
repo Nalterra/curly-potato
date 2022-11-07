@@ -8,24 +8,16 @@
     background-color: #f2f2f2;
 }
 
-.hebergement .sous_section_hebergement_liste {
-    grid-auto-rows: 199px;
-    grid-auto-columns: 246px;
-    grid-template-columns: 246px 246px 246px;
+.hebergement .hebergement_carte {
+    width: 200px;
+    height: 199px;
 }
 
 .hebergement .hebergement_carte_image > img {
-    width: 246px;
+    width: 230px;
     height: 114px;
 }
 
 .hebergement .hebergement_carte_description {
-    max-width: 186px;
     margin: 5px 10px 10px 10px;
-}
-
-.hebergement .hebergement_carte_description {
-    display: flex;
-    flex-direction: row;
-    gap: 5px;
 }
