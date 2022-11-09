@@ -2,20 +2,34 @@
 @import "hebergement_carte.css";
 
 .sous_section_hebergement {
-    margin-bottom: 20px;
     border: 1px solid #f2f2f2;
     border-radius: 15px;
     background-color: #f2f2f2;
+    height: 626px;
+    padding-top: 42px;
+    max-width: 880px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+.sous_section_hebergement_liste {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 23px 40px 0 40px;
 }
 
 .sous_section_hebergement .hebergement_carte {
-    width: 200px;
+    width: 246px;
     height: 199px;
 }
 
 .sous_section_hebergement .hebergement_carte_image > img {
-    width: 230px;
-    height: 114px;
+    width: 246px;
+    height: 124px;
 }
 
 .sous_section_hebergement .hebergement_carte_description {

@@ -2,11 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     border: 5px solid white;
+    box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
     border-radius: 20px;
     background-color: white;
     overflow: hidden;
     max-width: 246px;
     width: 100%;
+    box-sizing: border-box;
+
 }
 
 .hebergement_carte_image {
@@ -34,6 +37,7 @@
 .hebergement_carte_prix {
     font-size: 14px;
     margin: 0px;
+    padding-bottom: 9px;
 }
 
 .etoile {

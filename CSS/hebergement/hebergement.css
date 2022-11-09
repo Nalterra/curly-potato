@@ -3,7 +3,7 @@
     display: flex;
     align-items: center;
     height: 19px;
-    margin-bottom: 10px;
+    margin-bottom: 39px;
 }
 
 .icone_info {
@@ -19,39 +19,26 @@
    margin-right: 11px;
 }
 
-.section_hebergement{
+.section_hebergement {
     display: flex;
     flex-direction: row;
     gap: 40px;
     max-height: 626px;
 }
 
-.section_hebergement > .sous_section_hebergement {
-    padding: 40px;
-    height: 100%;
-}
-
-.sous_section_hebergement_liste {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    gap: 30px;
-    padding-top: 23px;
-}
-
 #lien_hebergement {
     width: 100%;
+    padding-left: 40px;
+    box-sizing: border-box;
+    margin: 0px;
 }
 
 .afficher_plus {
     width: 100%;
+    margin: 0px;
+    padding: 40px 0 46px 44px;
+    box-sizing: border-box;
 }
 
-.sous_section_hebergement > h2 {
-    margin-top: 0px;
-    margin-bottom: 0px;
-}
 
-h2 > i {
-    color: #0065FC;
-}
+

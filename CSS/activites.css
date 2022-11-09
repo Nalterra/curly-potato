@@ -1,25 +1,39 @@
 
-#lien_activite{
+#lien_activite {
     width: 100%;
-    margin-top: 60px;
+    padding-top: 60px;
+    margin: 0px;
+    margin-bottom: 18px;
 }
-.activite{
+
+.activite {
     display: flex;
     flex-wrap: wrap;
-    border:1px solid white;
-    border-radius: 20px;
-    background-color: white;
-    justify-content: space-between;
     margin-bottom: 60px;
+    justify-content: space-between;
+   
 }
-.image_activite > img{
-    width: 302px;
+
+.image_activite > img {
+    width: 100%;
     height: 389px;
-    border: 2px solid white;
     border-radius: 20px 20px 0 0;
     overflow: hidden;
+    box-sizing: content-box;
 }
-.activite_marseille{
-    width: 302px;
+
+.activite_marseille {
+    max-width: 302px;
+    width: 100%;
     height: 444px;
+    box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+    box-sizing: border-box;
+
+}
+
+.activite_marseille > h3 {
+    margin: none;
+    padding-left: 19px;
 }
