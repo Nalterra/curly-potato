@@ -1,23 +1,23 @@
 @import "hebergement.css";
 @import "hebergement_carte.css";
 
-.hebergement {
-    height: 100%;
+.sous_section_hebergement {
+    margin-bottom: 20px;
     border: 1px solid #f2f2f2;
     border-radius: 15px;
     background-color: #f2f2f2;
 }
 
-.hebergement .hebergement_carte {
+.sous_section_hebergement .hebergement_carte {
     width: 200px;
     height: 199px;
 }
 
-.hebergement .hebergement_carte_image > img {
+.sous_section_hebergement .hebergement_carte_image > img {
     width: 230px;
     height: 114px;
 }
 
-.hebergement .hebergement_carte_description {
+.sous_section_hebergement .hebergement_carte_description {
     margin: 5px 10px 10px 10px;
 }
