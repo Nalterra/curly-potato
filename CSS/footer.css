@@ -11,6 +11,13 @@ footer {
     height: 225px;
     width: 100%;
 }
+.footer_colonne > h3 {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
 
 .footer_colonne > div {
     margin-bottom: 12px;
