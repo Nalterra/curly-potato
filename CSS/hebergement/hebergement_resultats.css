@@ -24,7 +24,6 @@
 
 .sous_section_hebergement .hebergement_carte {
     width: 246px;
-    height: 199px;
 }
 
 .sous_section_hebergement .hebergement_carte_image > img {
@@ -33,5 +32,5 @@
 }
 
 .sous_section_hebergement .hebergement_carte_description {
-    margin: 5px 10px 10px 10px;
+    margin: 4px 10px 10px 10px;
 }

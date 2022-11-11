@@ -12,11 +12,6 @@
     box-sizing: border-box;
 }
 
-/*.populaire_carte{
-    display: flex;
-    flex-direction: column;
-    gap: 33px;
-} */
 .sous_section_hebergement_liste_populaire {
     display: flex;
     flex-direction: row;
@@ -46,6 +41,15 @@
     padding-left: 2px;
     padding-bottom: 26px;
 }
+.hebergement_carte_description_populaire {
+    display: flex;
+    font-size: 16px;
+    flex-direction: column;
+    padding: 16px 22px 12px 15px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
 
 .sous_section_hebergement_populaire_titre > i{
     color: #0065fc;
