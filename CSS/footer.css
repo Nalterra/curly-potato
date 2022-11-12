@@ -20,5 +20,8 @@ footer {
 }
 
 .footer_colonne > div {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
     margin-bottom: 12px;
 }

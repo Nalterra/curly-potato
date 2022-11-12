@@ -50,6 +50,14 @@
     box-sizing: border-box;
 }
 
+.hebergement_carte_prix_populaire {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 400;
+    margin: 0px;
+    margin-bottom: 9px;
+
+}
 
 .sous_section_hebergement_populaire_titre > i{
     color: #0065fc;
