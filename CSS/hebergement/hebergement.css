@@ -22,12 +22,12 @@
 .section_hebergement {
     display: flex;
     flex-direction: row;
-    gap: 40px;
+    justify-content: space-between;
+
 }
 
 #lien_hebergement {
     width: 100%;
-    padding-left: 40px;
     box-sizing: border-box;
     margin: 0px;
 }
@@ -35,7 +35,6 @@
 .afficher_plus {
     width: 100%;
     margin: 0px;
-    padding: 40px 0 46px 44px;
     box-sizing: border-box;
 }
 

@@ -8,14 +8,15 @@
     margin-top: 48px;
 }
 .nav_menu{
-    width:250px;
+    max-width:250px;
     height: 80px;
+    width:100%;
+    gap: 67px;
     display: flex;
     justify-content: space-around;
 }
 .nav_menu a{
     display: block;
-    height: 100%;
     padding-top: 48px;
     font-weight: 400;
     font-size: 16px;

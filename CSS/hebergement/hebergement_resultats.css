@@ -4,13 +4,12 @@
 .sous_section_hebergement {
     border: 1px solid #f2f2f2;
     border-radius: 15px;
+    margin: none;
     background-color: #f2f2f2;
     height: 626px;
-    padding-top: 42px;
     max-width: 880px;
     width: 100%;
     box-sizing: border-box;
-    margin: auto;
 }
 
 
@@ -20,9 +19,8 @@
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 30px;
-    padding-top: 23px;
-    max-width: 870px;
-    margin: auto;
+    padding: 40px;
+    max-width: 880px;
 }
 
 .sous_section_hebergement .hebergement_carte {
@@ -31,7 +29,7 @@
 
 .sous_section_hebergement .hebergement_carte_image > img {
     width: 246px;
-    height: 124px;
+    height: 120px;
 }
 
 .sous_section_hebergement .hebergement_carte_description {

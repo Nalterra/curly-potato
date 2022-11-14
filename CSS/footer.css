@@ -1,4 +1,4 @@
-footer {
+.footer_contenu {
     display: flex;
     background-color: #f2f2f2;
     justify-content: space-around;
