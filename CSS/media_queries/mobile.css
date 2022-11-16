@@ -1,7 +1,24 @@
 @media screen and (max-width: 767px)
 {
-    body{
-        max-width: 380px;
+    section, aside, .filtre {
+        padding: 0 21px;
+    }
+    
+    .nav_menu {
+        width: 100%;
+        
+    }
+
+    .nav_menu a:hover {
+        border-top: none;
+        border-bottom: 3px solid #0065fc;
+    }
+
+    .nav_menu a {
+        width: 50%;
+        border-bottom: 3px solid #F2F2F2;
+        border-top: none;
+        padding-bottom: 40px;
     }
 
     #logo_nav{
@@ -9,30 +26,19 @@
     }
 
     .mise_en_page {
-        max-width: 380px;
+        width: 100%;
         padding: none;
 
     }
 
     .logo {
-        max-width: 380px;
+        display: flex;
         width: 100%;
+        justify-content: center;
     }
 
     .logo > img {
         margin-top: 21px;
-    }
-
-    .nav_menu {
-        max-width: 380px;
-        width: 100%;
-        padding-bottom: 23px;
-        border-bottom: 3px solid #F2F2F2;
-    }
-
-    .nav_menu a:hover {
-        border-top: none;
-        border-bottom: #0065fc;
     }
 
     .recherche > h1 {
@@ -63,7 +69,6 @@
     }
 
     .filtre {
-        max-width: 380px;
         width: 100%;
         margin-top: 34px;
         flex-wrap: wrap;
@@ -83,5 +88,38 @@
         margin: 0px;
     }
 
+    .info {
+        height: 57px;
+        margin-bottom: 17px;
+    }
 
+    .section_hebergement {
+        flex-direction:column-reverse;
+        max-width: none;
+    }
+
+    .sous_section_hebergement_populaire {
+        max-width: none;
+        padding: 0 21px;
+    }
+
+    .sous_section_liste_populaire{
+        gap: 11px;
+    }
+
+    .sous_section_hebergement_populaire_titre {
+        font-size: 22px;
+        line-height: 26px;
+    }
+
+    .vignette_populaire_carte {
+        max-width: none;
+        width: 100%;
+        height: 144px;
+    }
+
+    .sous_section_hebergement_populaire .hebergement_carte_image {
+        width: 137px;
+        height: 144px;
+    }
 }
