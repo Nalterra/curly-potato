@@ -1,0 +1,87 @@
+@media screen and (max-width: 767px)
+{
+    body{
+        max-width: 380px;
+    }
+
+    #logo_nav{
+        flex-wrap: wrap;
+    }
+
+    .mise_en_page {
+        max-width: 380px;
+        padding: none;
+
+    }
+
+    .logo {
+        max-width: 380px;
+        width: 100%;
+    }
+
+    .logo > img {
+        margin-top: 21px;
+    }
+
+    .nav_menu {
+        max-width: 380px;
+        width: 100%;
+        padding-bottom: 23px;
+        border-bottom: 3px solid #F2F2F2;
+    }
+
+    .nav_menu a:hover {
+        border-top: none;
+        border-bottom: #0065fc;
+    }
+
+    .recherche > h1 {
+        margin-top: 30px;
+        margin-bottom: 0px;
+    }
+
+    .recherche > p {
+        margin-top: 13px;
+        margin-bottom: 36px;
+    }
+
+    .recherche_loupe {
+        height: 49px;
+        width: 49px;
+        border: 1px solid #f2f2f2;
+        border-radius: 0 15px 15px 0;
+        background-color: #0065FC;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+       
+    }
+    .recherche_bouton {
+        display: none;
+    }
+
+    .filtre {
+        max-width: 380px;
+        width: 100%;
+        margin-top: 34px;
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+
+    .filtre > h2 {
+        width: 100%;
+    }
+
+    .icone_texte {
+        display: flex;
+        font-size: 13px;
+        max-width: 160px;
+        width: 100%;
+        padding: 19px 56px 18px 39px;
+        margin: 0px;
+    }
+
+
+}

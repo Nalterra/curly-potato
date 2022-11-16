@@ -1,13 +1,15 @@
-#logo_nav{
+#logo_nav {
     display: flex;
     justify-content: space-between;
 }
-.logo > img{
+
+.logo > img {
     width: 61px;
     height: 19px;
     margin-top: 48px;
 }
-.nav_menu{
+
+.nav_menu {
     max-width:250px;
     height: 80px;
     width:100%;
@@ -15,15 +17,17 @@
     display: flex;
     justify-content: space-around;
 }
-.nav_menu a{
+
+.nav_menu a {
     display: block;
     padding-top: 48px;
     font-weight: 400;
     font-size: 16px;
 }
 
-.nav_menu a:hover{
+.nav_menu a:hover {
     border-top: 2px solid #0065FC;
+    
     padding-top: 46px;
     color: #0065FC;
 }
