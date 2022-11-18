@@ -1,6 +1,9 @@
 @media screen and (min-width: 768px) and (max-width: 992px)
 {
-  
+    section, aside, .filtre {
+        padding: 0 21px;
+    }
+    
     .section_hebergement {
         display: flex;
         max-height: none;

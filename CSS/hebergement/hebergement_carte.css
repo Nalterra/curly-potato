@@ -51,9 +51,8 @@
 .etoile {
     font-size: 12px;
     color: #0065FC;
-    
 }
 
-.etoile i:last-child{
+.etoile i:last-child {
     color: #f2f2f2;
 }
