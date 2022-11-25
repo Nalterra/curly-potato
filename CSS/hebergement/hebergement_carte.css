@@ -49,6 +49,7 @@
 }
 
 .etoile {
+    display: flex;
     font-size: 12px;
     color: #0065FC;
 }

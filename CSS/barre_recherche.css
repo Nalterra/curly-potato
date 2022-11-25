@@ -29,7 +29,7 @@
 .recherche_barre > input{
     height: 49px;
     border: none;
-    width: max-content;
+    width: 230px;
     font-size: 18px;
     border-top: 1px solid #f2f2f2;
     border-bottom: 1px solid #f2f2f2;
@@ -64,13 +64,13 @@
     align-items: center;
     margin-top: 46px;
     margin-bottom: 36px;
+    gap: 32px;
 }
 
 .filtre > h2 {
     font-size: 18px;
     line-height: 21px;
     margin: 0px;
-    margin-right: 32px;
 
 }
 .icone_texte {
@@ -78,6 +78,7 @@
     font-size: 17px;
     border: 2px solid #f2f2f2;
     border-radius: 25px;
+    column-gap: 4px;
     max-height: 50px;
     padding: 14px 20px;
     justify-content: center;
@@ -85,13 +86,16 @@
     box-sizing: border-box;
     font-weight: 600;
     margin-top: 0px;
-    margin-right: 32px;
 
 }
 .icone_texte:hover {
     background-color: #DEEBFF;
 }
 .icone_filtre {
-    padding-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 22px;
+    height: 22px;
     color: #0065FC;
 }

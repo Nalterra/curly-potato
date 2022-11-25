@@ -13,6 +13,7 @@
     flex-wrap: wrap;
     margin-bottom: 60px;
     justify-content: space-between;
+    gap: 40px;
    
 }
 
