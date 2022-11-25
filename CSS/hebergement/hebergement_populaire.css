@@ -38,6 +38,7 @@
     justify-content: space-between;
     align-items: center;
     margin: 0px;
+    height: 26px;
     width: 100%;
 }
 .hebergement_carte_description_populaire {
@@ -68,7 +69,9 @@
 }
 
 .sous_section_hebergement_populaire .hebergement_carte_image > img {
-    width: 137px;
+    max-width: 137px;
+    width: 100%;
+    min-width: 100px;
     height: 144px;
 }
 

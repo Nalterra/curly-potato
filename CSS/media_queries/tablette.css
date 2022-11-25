@@ -8,6 +8,9 @@
     .filtre {
         gap: 22px;
     }
+    .icone_texte {
+        padding: 14px 10px 14px 7px;
+    }
     
     .section_hebergement {
         display: flex;
