@@ -45,7 +45,16 @@
 
 }
 
-.activite_marseille > h3 {
+.activite_marseille_vignette {
+    max-width: 302px;
+    width: 100%;
+    box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.activite_marseille_vignette > h3 {
     display: flex;
     margin: 0px;
     height: 56px;
