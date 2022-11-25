@@ -23,9 +23,7 @@
     }
     .sous_section_hebergement_liste {
         max-width: none;
-        /* column-gap: 10px; */
         justify-content: space-between;
-        /* width: 100%; */
     }
 
     .sous_section_hebergement_liste .hebergement_carte{
@@ -48,7 +46,6 @@
     }
 
     .vignette_populaire_carte{
-        /* max-width: 252px; */
         width: 30%;
         height: 144px;
         box-sizing: border-box;

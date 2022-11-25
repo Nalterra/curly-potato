@@ -176,6 +176,10 @@
         gap: 24px;
     }
 
+    .activite_nowrap {
+        flex-direction: column;
+    }
+
     .activite_marseille {
         max-width: none;
         width: 100%;

@@ -12,9 +12,18 @@
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 60px;
-    justify-content: space-between;
-    gap: 40px;
+    justify-content: center;
+    column-gap: 40px;
    
+}
+
+.activite_nowrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    column-gap: 40px;
+    
+
 }
 
 .image_activite > img {
@@ -37,6 +46,10 @@
 }
 
 .activite_marseille > h3 {
-    margin: none;
+    display: flex;
+    margin: 0px;
+    height: 56px;
+    align-items: center;
     padding-left: 19px;
+    box-sizing: border-box;
 }
