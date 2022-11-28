@@ -156,6 +156,7 @@
     }
 
     .sous_section_hebergement .hebergement_carte {
+        max-width: none;
         width: 100%;
     }
 
