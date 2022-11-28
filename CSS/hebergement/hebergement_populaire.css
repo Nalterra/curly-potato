@@ -19,6 +19,10 @@
     gap: 30px;
 }
 
+.populaire_carte {
+    width: 100%;
+}
+
 .vignette_populaire_carte{
 
     display: flex;
