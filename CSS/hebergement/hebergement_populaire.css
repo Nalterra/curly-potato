@@ -19,7 +19,8 @@
     gap: 30px;
 }
 
-.populaire_carte{
+.vignette_populaire_carte{
+
     display: flex;
     flex-direction: row;
     border: 5px solid white;
@@ -31,12 +32,6 @@
     height: 144px;
     width: 100%;
     box-sizing: border-box;
-}
-
-.vignette_populaire_carte{
-    display: flex;
-    width: 100%;
-
 }
 
 .sous_section_hebergement_populaire_titre {
