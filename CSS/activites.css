@@ -21,7 +21,8 @@
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
-    column-gap: 40px;
+    column-gap: 20px;
+    width: 100%;
 }
 
 .image_activite > img {
@@ -40,7 +41,6 @@
     border-radius: 20px;
     overflow: hidden;
     box-sizing: border-box;
-
 }
 
 .activite_marseille_vignette {

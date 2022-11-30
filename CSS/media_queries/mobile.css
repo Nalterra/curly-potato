@@ -151,6 +151,7 @@
     .sous_section_hebergement_liste {
         max-width: none;
         width: 100%;
+        min-width: 0px;
         padding: 0px;
         gap: 12px;
     }
