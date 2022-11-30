@@ -51,6 +51,12 @@
         margin-bottom: 36px;
     }
 
+    .recherche_barre {
+        min-width: 15px;
+        max-width: 230px;
+        /* changement effectué */
+    }
+
     .recherche_loupe {
         height: 49px;
         width: 49px;
@@ -189,6 +195,7 @@
 
     .activite_nowrap {
         flex-direction: column;
+        row-gap: 24px;
     }
 
     .activite_marseille {
