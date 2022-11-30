@@ -235,7 +235,7 @@ a {
         .sous_section_hebergement {
             border: 1px solid #f2f2f2;
             border-radius: 15px;
-            margin: none;
+            margin: 0;
             background-color: #f2f2f2;
             height: 626px;
             max-width: 880px;
@@ -265,7 +265,7 @@ a {
             box-sizing: border-box; 
             max-width: 246px;
             min-width: 160px;
-            border: 5px solid white;
+            border: 5px solid transparent;
             box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
             border-radius: 20px;
             background-color: white;
@@ -338,7 +338,7 @@ a {
         
             display: flex;
             flex-direction: row;
-            border: 5px solid white;
+            border: 5px solid transparent;
             box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
             border-radius: 20px;
             background-color: white;
@@ -594,7 +594,7 @@ a {
             margin-top: 5px;
             font-size: 16px;
             max-height: 56px;
-            margin: none;
+            margin: 0;
             align-items: center;
             box-sizing: border-box;
         }
@@ -635,7 +635,7 @@ a {
 
         .mise_en_page {
             width: 100%;
-            padding: none;
+            padding: 0;
 
         }
 
