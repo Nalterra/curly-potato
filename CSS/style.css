@@ -1,6 +1,9 @@
 body {
     margin: 0;
-   font-family: 'Raleway', sans-serif;
+}
+
+* {
+    font-family: 'Raleway', sans-serif;
 }
 
 .mise-en-page {
@@ -96,6 +99,8 @@ a {
     }
     .recherche_barre > input::placeholder {
         color: black;
+        font-weight: 600;
+
     }
     .recherche_bouton {
         height: 49px;
@@ -590,17 +595,13 @@ a {
 
         .activite_marseille_vignette > h3 {
             display: flex;
-            height: 35px;
+            height: 54px;
             margin-top: 5px;
             font-size: 16px;
             max-height: 56px;
             margin: 0;
             align-items: center;
             box-sizing: border-box;
-        }
-
-        .footer_contenu{
-            max-width: none;
         }
     }
 
@@ -662,7 +663,6 @@ a {
         .recherche_barre {
             min-width: 15px;
             max-width: 230px;
-            /* changement effectué */
         }
 
         .recherche_loupe {
@@ -689,6 +689,7 @@ a {
             gap: 5px;
             padding: 0;
             justify-content: space-between;
+            row-gap: 17px;
         }
 
         .filtre > h2 {
