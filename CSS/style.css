@@ -437,16 +437,6 @@ a {
         box-sizing: content-box;
     }
     
-    .activite_marseille {
-        max-width: 302px;
-        width: 100%;
-        height: 444px;
-        box-shadow: 1px 1px 16px rgba(170, 170, 170, 0.4);
-        border-radius: 20px;
-        overflow: hidden;
-        box-sizing: border-box;
-    }
-    
     .activite_marseille_vignette {
         max-width: 302px;
         width: 100%;
@@ -578,7 +568,6 @@ a {
         .activite_marseille {
             max-width: 182px;
             width: 100%;
-            height: 267px;
         }
 
         .activite_marseille_vignette {
