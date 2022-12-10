@@ -7,7 +7,7 @@ body {
 }
 
 .mise-en-page {
-   max-width: 1350px;
+   max-width: 1400px;
    margin: 0 auto;
    padding: 0 5px;
 }
@@ -492,7 +492,7 @@ a {
 /* MEDIA QUERIES */
 
     /* TABLETTE */
-        @media screen and (min-width: 768px) and (max-width: 992px)
+        @media screen and (min-width: 768px) and (max-width: 991px)
     {
 
         .filtre {
